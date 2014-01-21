@@ -1,6 +1,7 @@
 package com.zenfractal
 
 import parquet.hadoop.{ParquetOutputFormat, ParquetInputFormat}
+import org.apache.spark
 import spark.SparkContext
 import spark.SparkContext._
 import org.apache.hadoop.mapreduce.Job

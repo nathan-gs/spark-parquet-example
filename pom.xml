@@ -102,9 +102,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.spark-project</groupId>
+            <groupId>org.apache.spark</groupId>
             <artifactId>spark-core_${scala.version}</artifactId>
-            <version>0.7.3</version>
+            <version>0.8.1-incubating</version>
         </dependency>
         <dependency>
             <groupId>com.twitter</groupId>
@@ -117,5 +117,7 @@
             <version>${avro.version}</version>
         </dependency>
     </dependencies>
+
+
 
 </project>
